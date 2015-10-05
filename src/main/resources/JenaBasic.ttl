@@ -1,0 +1,2 @@
+<http://example.org/resource/YoucaiLi>
+<http://example.org/property/said> "Hello World!"@en .

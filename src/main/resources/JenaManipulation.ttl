@@ -1,0 +1,21 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.org/> .
+
+<http://www.heathlee.xyz/>
+    foaf:title "Mr" ;
+    foaf:firstName "Youcai" ;
+    foaf:lasttName "Li" ;
+    foaf:mbox <mailto:lyc9308@sina.com> ;
+    foaf:homepage <http://www.heathlee.xyz> ;
+    ex:photo <http://www.heathlee.xyz#photo> ;
+    foaf:phone <http://www.heathlee.xyz#tel> ;
+    foaf:knows [ foaf:name "Bob" ] ;
+    ex:food "fish" ;
+    ex:movie "The Matrix" ;
+    #==================================
+    #added by myself
+    foaf:age 22;
+    ex:school "Sun Yet-sen University" ;
+    ex:home "Shandong Province" .

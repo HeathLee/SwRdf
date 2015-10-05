@@ -1,0 +1,29 @@
+@prefix ex:    <http://example.org/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<http://someone/doge>
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Doge Jenas" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                "Jenas" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                "Doge" ;
+        foaf:knows  [ foaf:name  "Youcai Li" ] ;
+        foaf:mbox   "mailto:doge@example.com" .
+
+<http://www.heathlee.xyz/>
+        ex:food         "fish" ;
+        ex:home         "Shandong Province" ;
+        ex:movie        "The Matrix" ;
+        ex:photo        <http://www.heathlee.xyz#photo> ;
+        ex:school       "Sun Yet-sen University" ;
+        foaf:age        22 ;
+        foaf:firstName  "Youcai" ;
+        foaf:homepage   <http://www.heathlee.xyz> ;
+        foaf:knows      [ foaf:name  "Bob" ] ;
+        foaf:lasttName  "Li" ;
+        foaf:mbox       <mailto:lyc9308@sina.com> ;
+        foaf:phone      <http://www.heathlee.xyz#tel> ;
+        foaf:title      "Mr" .

@@ -1,0 +1,35 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ex="http://example.org/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <foaf:name>Bob</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <foaf:name>Youcai Li</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://someone/doge">
+    <foaf:knows rdf:nodeID="A1"/>
+    <foaf:mbox>mailto:doge@example.com</foaf:mbox>
+    <vcard:Family>Jenas</vcard:Family>
+    <vcard:Given>Doge</vcard:Given>
+    <vcard:FN>Doge Jenas</vcard:FN>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.heathlee.xyz/">
+    <foaf:knows rdf:nodeID="A0"/>
+    <ex:food>fish</ex:food>
+    <foaf:title>Mr</foaf:title>
+    <ex:movie>The Matrix</ex:movie>
+    <ex:photo rdf:resource="http://www.heathlee.xyz#photo"/>
+    <foaf:homepage rdf:resource="http://www.heathlee.xyz"/>
+    <foaf:lasttName>Li</foaf:lasttName>
+    <foaf:firstName>Youcai</foaf:firstName>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</foaf:age>
+    <foaf:mbox rdf:resource="mailto:lyc9308@sina.com"/>
+    <ex:home>Shandong Province</ex:home>
+    <foaf:phone rdf:resource="http://www.heathlee.xyz#tel"/>
+    <ex:school>Sun Yet-sen University</ex:school>
+  </rdf:Description>
+</rdf:RDF>
